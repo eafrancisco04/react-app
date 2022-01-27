@@ -2,7 +2,12 @@ function Header(){
     return(
     /*html here */
         <header>
-            <h1>Title</h1>
+            <ul>
+                <li>Profile</li>
+                <li>Portfolio</li>
+                <li>Background</li>
+                <li>Contact Me</li>
+            </ul>
         </header>
 
     )
