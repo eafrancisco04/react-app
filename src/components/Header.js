@@ -2,7 +2,7 @@ function Header(){
     return(
     /*html here */
         <header>
-            <ul>
+            <ul class="menu">
                 <li>Profile</li>
                 <li>Portfolio</li>
                 <li>Background</li>
