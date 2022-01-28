@@ -10,9 +10,9 @@ ReactDOM.render(
   <React.StrictMode>
     <Header></Header>
     <Bio></Bio>
-    <Portfolio></Portfolio>
-    <Portfolio></Portfolio>
-    <Portfolio></Portfolio>
+    <Portfolio title="Title1" descr="Lorem ipsum something"></Portfolio>
+    <Portfolio title="Title2" descr="Lorem ipsum something"></Portfolio>
+    <Portfolio title="Title3" descr="Lorem ipsum something"></Portfolio>
     <Footer></Footer>
   </React.StrictMode>,
   document.getElementById('root')
