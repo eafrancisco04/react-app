@@ -8,11 +8,14 @@ body {
     /* background-image: linear-gradient( #f6f6f6, #613659); */
     font-family: "Dongle", arial, sans-serif;
     font-size: 2em;
+    padding: .15em;
 }
 .menu {
+    padding: .5em;
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+    
 }
 #root {
     min-height: 100vh;
@@ -21,10 +24,34 @@ body {
     justify-content: space-between;
   }
 
+section {
+    padding: 1em;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    background-color: #97daff;
+    min-width: 333px;
+    max-width: 333px;
+    padding: .5em;
+    border-radius: 25px;
+    box-shadow: inset -30px -30px 50px rgba(255, 255, 255, 0.2), inset -1px -5px 5px rgba(13, 39, 80, .2);
+
+    text-align: center;
+
+}
+
+
 footer {
     width: 100vw;
+    padding: .15em;
 
 
-    background-color: #00CAE0;
+    background-color: #2D3F75;
     align-self: flex-end;
 }
