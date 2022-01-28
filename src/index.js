@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Bio from './components/Bio'
-import Portfolio './components/Portfolio'
+import Portfolio from './components/Portfolio'
 import "./css/style.css"
 
 ReactDOM.render(
