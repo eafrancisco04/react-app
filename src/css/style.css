@@ -18,6 +18,10 @@ body {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
+
+    background: rgba(180, 248, 200, .75);
+    position: fixed;
+    min-width: 100vw;
     
 }
 #root {
