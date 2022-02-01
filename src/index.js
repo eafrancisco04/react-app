@@ -10,11 +10,11 @@ ReactDOM.render(
   <React.StrictMode>
     <Header></Header>
     <Bio></Bio>
-    <section class="portfolio">
-      <Portfolio title="Title1" descr="Lorem ipsum something"></Portfolio>
-      <Portfolio title="Title2" descr="Lorem ipsum something"></Portfolio>
+    <div class="portfolio">
+      <Portfolio title="Playlist" descr="A simple audio player with Vanilla Javascript"></Portfolio>
+      <Portfolio title="Github " descr="Lorem ipsum something"></Portfolio>
       <Portfolio title="Title3" descr="Lorem ipsum something"></Portfolio>
-    </section>
+    </div>
     <Footer></Footer>
   </React.StrictMode>,
   document.getElementById('root')
