@@ -34,7 +34,7 @@ body {
     min-height: 100vh;
     margin: auto;
 }
-section {
+main {
     min-height:100vh;
     display: grid;
     place-content: center;
@@ -72,11 +72,19 @@ h2 {
     background-color: #BBE7FE;
 
 }
-
+section {
+    background-color: #BBE7FE;
+    padding: 20px 0;
+    min-width: 100vw;
+    text-align: center;
+    min-height: 50vh;
+    
+}
 article {
     background-color: #BBE7FE;
     min-width: 333px;
     max-width: 333px;
+    min-height: 333px;
     padding: .5em;
     border-radius: 25px;
     box-shadow: inset -30px -30px 50px rgba(255, 255, 255, 0.2), inset -1px -5px 5px rgba(13, 39, 80, .2);
